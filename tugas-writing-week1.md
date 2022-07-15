@@ -2,8 +2,6 @@
 
 ## Unix Commad Line
 
----
-
 - CLI (Command Line Interface)
   <div align="justify">Merupakan sebuah program yang memungkinkan user mengetik perintah atau command yang akan mmemerintahkan perangkat komputer untuk melakukan suatu tugas tertentu.
 - Shell
@@ -15,7 +13,7 @@
 
   ![tree](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/tree.JPG)
 
-- Command\
+- Command
   - pwd (print working directory), untuk melihat current working directory
   - dir (directory), untuk melihat directory
   - cd (change directory), untuk pindah directory
