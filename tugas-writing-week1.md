@@ -59,8 +59,8 @@
 
   - git push origin, untuk mempublish file atau aplikasi ke github
 
-    ![git-push](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-push.JPG)
+    ![git-push](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-push%20-%20Copy.JPG)
 
   - git clone, untuk melakukan cloning dari github ke komputer atau local
 
-    ![git-clone](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-clone.JPG)
+    ![git-clone](<https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-clone%20(1).JPG>)
