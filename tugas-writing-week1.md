@@ -64,3 +64,16 @@
   - git clone, untuk melakukan cloning dari github ke komputer atau local
 
     ![git-clone](<https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-clone%20(1).JPG>)
+
+## HTML
+
+<div align="justify">Merupakan bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. Bagaimana peran HTML pada web development? Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML. Dokumen HTML yang berisi tag-tag HTML akan memberitahu browser bagaimana cara menampilkan sebuah konten.
+
+&nbsp;
+
+HTML memiliki sebuah kerangka seperti gambar dibawah ini
+![]()
+
+Sintak diatas biasa disebut dengan kerangka bahasa pemrograman HTML. Didalam website selalu ada title untuk tiap-tiap web, untuk memasukkan title didalam web kamu harus mengetikkan diantara tag <TITLE> ... </TITLE> (titik-titik itu dapat diisikan dengan nama website kamu atau yang lainnya).
+
+Untuk memasukkan konten-konten, kamu dapat memasukkannya atau mengetikkannya didalam program tepat diantara tag <BODY> ... </BODY> (Ganti titik-titik dengan konten).
