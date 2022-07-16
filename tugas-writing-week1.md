@@ -97,7 +97,9 @@
 
   <div align="justify">Tag adalah sebauh penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut.
 
-  Tag selalu ditulis berpasangan. Ada tag pembuka dan ada tag penutupnya. Namun, ada juga beberapa tag yang tidak memiliki pasangan penutup. Tag penutup ditulis dengan menambahkan garis miring (/) di depan nama tag.
+  &nbsp;
+
+  <div align="justify">Tag selalu ditulis berpasangan. Ada tag pembuka dan ada tag penutupnya. Namun, ada juga beberapa tag yang tidak memiliki pasangan penutup. Tag penutup ditulis dengan menambahkan garis miring (/) di depan nama tag.
 
   &nbsp;
 
@@ -229,11 +231,11 @@
 
   3. Eksternal CSS
 
-     Kita akan menyisipkan kode CSS dengan cara membuat file CSS terpisah, dan lalu menyambungkannya dengan file HTML dengan menggunakan element <link>. Element <link> tersebut diletakkan di dalam element <head>
+     <div align="justify">Kita akan menyisipkan kode CSS dengan cara membuat file CSS terpisah, dan lalu menyambungkannya dengan file HTML dengan menggunakan element <link>. Element <link> tersebut diletakkan di dalam element <head>
 
      Contoh:
 
-     Kita memiliki dua file: index.html untuk file HTML-nya dan styles.css untuk file CSS-nya.
+     <div align="justify">Kita memiliki dua file: index.html untuk file HTML-nya dan styles.css untuk file CSS-nya.
 
      ```html
      <!-- File index.html -->
@@ -273,7 +275,7 @@
 
 - CSS Syntax
 
-  CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value.
+  <div align="justify">CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value.
 
   Syntaxnya seperti ini:
 
@@ -291,10 +293,87 @@
 
   - color
 
-    Adalah sebuah properti berupa bagian mana dari element HTML yang akan diubah. Contoh diatas kita akan mengubah warna dari teks yang ada di element p
+    <div align="justify">Adalah sebuah properti berupa bagian mana dari element HTML yang akan diubah. Contoh diatas kita akan mengubah warna dari teks yang ada di element p
 
   - blue
 
     Adalah value yaitu nilai/hiasan berupa warna biru
 
   &nbsp;
+
+## Algoritma dan Pseudocde
+
+- Algoritma
+
+  - <div align="justify">Algortima Adalah deskripsi berupa step-step yang dibutuhkan untuk menyelesaikan suatu masalah. Untuk menyelesaikan suatu masalah, tentunya kita harus mempunyai data struktur, nah data inilah yang akan kita gunakan untuk menyelesaikan suatu masalah dengan menggunakan algoritma.
+
+  &nbsp;
+
+  - Mengapa kita memerlukan algoritma?
+
+    Manfaat algoritma antara lain:
+
+    - <div align="justify">Membantu menyederhanakan suatu program yang rumit dan juga besar.
+    - <div align="justify">Mempermudah pembuatan program yang dapat menyelesaikan masalah tertentu.
+    - <div align="justify">Membantu menyelesaikan suatu masalah dengan logika dan juga sistematis.
+
+  &nbsp;
+
+  - Kualitas Algortima
+
+    Kualitas wajib dari algoritma
+
+    - <div align="justify">Input dan output harus didefinisikan terlebih dahulu dengan tepat
+    - <div align="justify">Setiap step harus benar-benar clear dan tidak ambigu
+    - <div align="justify">Algoritma seharusnya tidak mengandung suatu code pada bahasa pemograman tertentu.
+    - <div align="justify">Algoritma harus dibuat agar dapat digunakan dalam bahasa pemograman apapun.
+
+    &nbsp;
+
+  - Penggunaan Algortima
+
+    - Soal
+      <div align="justify">Buatlah Algoritma untuk menyelesaikan problem ini
+
+      David memiliki program yang membutuhkan untuk convert data dari jumlah jam ke detik
+
+      Contohnya jika program memiliki input 2 jam maka output yang diharapkan adalah 7200 detik
+
+    - Jawaban
+
+      - Mulai
+      - Deklarasi variabel n, hasil_convert
+      - Menambahkan nilai n
+      - <div align="justify">Melakukan proses (n jam = n \* 3600" lalu disimpan ke dalam hasil_convert
+      - Menampilkan hasil convert (n jam) = + "detik"
+      - Stop
+
+    &nbsp;
+
+- Pseudocode
+
+  - <div align="justify">Pseudocode adalah menuliskan algoritma sebelum kita implementasikan ke bahasa pemograman tertentu.
+
+    &nbsp;
+
+  - Bagaimana menulis pseudocode
+
+    - <div align="justify">Menggunakan HURUF BESAR pada kata kunci (key commands).
+
+      CONTOH: IF number is > 10 THEN …
+
+    - 1 statement = 1 baris
+    - Gunakan indentasi
+    - Simpel
+
+    Contoh seperti gambar di bawah
+
+    ![](gambar/pseudocode.JPG)
+
+    &nbsp;
+
+  - Pseudocode berdasarkan kondisi masalah
+
+    - Procedural
+
+      Procedural adalah cara berpikir secara runtun. Artinya serangkaian perintah yang berurutan.
