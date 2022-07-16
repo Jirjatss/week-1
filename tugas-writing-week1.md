@@ -269,30 +269,32 @@
 
      ![](gambar/ekstenal-css.jpg)
 
-  4. CSS Syntax
-
-     CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value.
-
-     Syntaxnya seperti ini:
-
-     ```css
-     p {
-       color: blue;
-     }
-     ```
-
-     Penjelasan :
-
-     - p
-
-       Adalah sebuah selector berupa element HTML yang akan diubah
-
-     - color
-
-       Adalah sebuah properti berupa bagian mana dari element HTML yang akan diubah. Contoh diatas kita akan mengubah warna dari teks yang ada di element p
-
-     - blue
-
-       Adalah value yaitu nilai/hiasan berupa warna biru
-
      &nbsp;
+
+- CSS Syntax
+
+  CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value.
+
+  Syntaxnya seperti ini:
+
+  ```css
+  p {
+    color: blue;
+  }
+  ```
+
+  Penjelasan :
+
+  - p
+
+    Adalah sebuah selector berupa element HTML yang akan diubah
+
+  - color
+
+    Adalah sebuah properti berupa bagian mana dari element HTML yang akan diubah. Contoh diatas kita akan mengubah warna dari teks yang ada di element p
+
+  - blue
+
+    Adalah value yaitu nilai/hiasan berupa warna biru
+
+  &nbsp;
