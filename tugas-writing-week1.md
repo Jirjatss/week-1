@@ -55,7 +55,7 @@
 
   - <div align="justify">git commit, untuk melakukan commit atau menyimpan perubahan pada version control pada git. Dan kita bisa menambahkan pesan untuk membeikan checkout pada setiap perbuahan. contohnya "git commit -m "pesan checkout"
 
-    ![git-commit1](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-commit1.JPG)
+    ![git-commit1](<https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-commit1%20(1).jpg>)
 
   - git push origin, untuk mempublish file atau aplikasi ke github
 
