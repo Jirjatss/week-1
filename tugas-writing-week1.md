@@ -50,6 +50,17 @@
 - ### Command di dalam Git & Github
 
   - git init <nama_proyek>, untuk membuat repositori baru
+
+    ![git_innit](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git_init.JPG)
+
   - git commit, untuk melakukan commit atau menyimpan perubahan pada version control pada git. Dan kita bisa menambahkan pesan untuk membeikan checkout pada setiap perbuahan. contohnya "git commit -m "pesan checkout"
+
+    ![git-commit1](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-commit1.JPG)
+
   - git push origin, untuk mempublish file atau aplikasi ke github
-  - git clone, untuk melakukan cloning dari github ke komputer atau local.
+
+    ![git-push](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-push.JPG)
+
+  - git clone, untuk melakukan cloning dari github ke komputer atau local
+
+    ![git-clone](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/git-clone.JPG)
