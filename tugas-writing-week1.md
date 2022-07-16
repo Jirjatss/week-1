@@ -67,7 +67,9 @@
 
 ## HTML
 
-- <div align="justify">Merupakan bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. Bagaimana peran HTML pada web development? Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML. Dokumen HTML yang berisi tag-tag HTML akan memberitahu browser bagaimana cara menampilkan sebuah konten.
+- Definisi HTML
+
+  <div align="justify">Merupakan bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. Bagaimana peran HTML pada web development? Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML. Dokumen HTML yang berisi tag-tag HTML akan memberitahu browser bagaimana cara menampilkan sebuah konten.
 
 &nbsp;
 
@@ -75,9 +77,19 @@
 
   HTML memiliki sebuah kerangka seperti gambar dibawah ini
 
-  ![kerangka-hmtl](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/kerangka-html.png)
+  ```html
+  <html>
+  <head>
+  <title>
+      Judul Website
+    </title>
+  <body>
+      saya sedang belajar pemrograman HTML dasar.
+    </body>
+  </html>
+  ```
 
-  <div align="justify">Sintak diatas biasa disebut dengan kerangka bahasa pemrograman HTML. Didalam website selalu ada title untuk tiap-tiap web, untuk memasukkan title didalam web kamu harus mengetikkan diantara tag title (dapat diisikan dengan nama website kamu atau yang lainnya). Untuk memasukkan konten-konten, kamu dapat memasukkannya atau mengetikkannya didalam program tepat diantara tag body (Ganti titik-titik dengan konten).
+    <div align="justify">Sintak diatas biasa disebut dengan kerangka bahasa pemrograman HTML. Didalam website selalu ada title untuk tiap-tiap web, untuk memasukkan title didalam web kamu harus mengetikkan diantara tag title (dapat diisikan dengan nama website kamu atau yang lainnya). Untuk memasukkan konten-konten, kamu dapat memasukkannya atau mengetikkannya didalam program tepat diantara tag body (Ganti titik-titik dengan konten).
 
   &nbsp;
 
@@ -158,3 +170,129 @@
 - Deploy HTML
 
   <div align="justify">Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan supaya bisa digunakan oleh orang-orang. Jika aplikasi kita HTML atau Web App kita perlu mendeploy ke server. Untuk melakukan hal tersebut kita bisa menggunakan layanan yang bernama Netlify
+
+## CSS
+
+- Definisi CSS
+
+  <div align="justify">CSS adalah bahasa komputer yang digunakan untuk menambahkan design ke suatu halaman website di internet agar terlihat lebih cantik/menarik. CSS adalah singkatan dari Cascading Style Sheets. Kita ibaratkan HTML adalah kerangka yang memberi sturuktur pada website, maka CSS adalah baju yang memberi warna dan layout pada website.
+
+&nbsp;
+
+- Cara Menggunakan CSS
+
+  1. Inline Styles
+
+     Kita menambahkann CSS langsung pada atribut HTML
+
+     ```html
+     <p style="color:red">Tulisan ini berwarna merah</p>
+     ```
+
+     ![](gambar/inline.jpg)
+
+  &nbsp;
+
+  2. Internal CSS
+
+     Kita menggunakan element/tag `<style>` untuk menyisipkan kode CSS. element/tag `<style>` diletakkan di dalam element `<head>`
+
+     ```html
+     <!DOCTYPE html>
+     <html>
+       <head>
+         <title>Website Pertamaku</title>
+         <style>
+           body {
+             background-color: yellow;
+           }
+           h1 {
+             color: blue;
+           }
+           p {
+             color: red;
+           }
+         </style>
+       </head>
+       <body>
+         <h1>Website Pertamaku</h1>
+         <p>Selamat Datang</p>
+       </body>
+     </html>
+     ```
+
+     Tampilan dari sintaks diatas adalah
+
+     ![](gambar/internal-css.jpg)
+
+     &nbsp;
+
+  3. Eksternal CSS
+
+     Kita akan menyisipkan kode CSS dengan cara membuat file CSS terpisah, dan lalu menyambungkannya dengan file HTML dengan menggunakan element <link>. Element <link> tersebut diletakkan di dalam element <head>
+
+     Contoh:
+
+     Kita memiliki dua file: index.html untuk file HTML-nya dan styles.css untuk file CSS-nya.
+
+     ```html
+     <!-- File index.html -->
+
+     <!DOCTYPE html>
+     <html>
+       <head>
+         <title>Website Pertamaku</title>
+         <link rel="stylesheet" href="styles.css" />
+       </head>
+       <body>
+         <h1>Website Pertamaku</h1>
+         <p>Selamat Datang</p>
+       </body>
+     </html>
+     ```
+
+     ```css
+     /* File styles.css */
+
+     body {
+       background-color: pink;
+     }
+     h1 {
+       color: blue;
+     }
+     p {
+       color: black;
+     }
+     ```
+
+     Tampilan dari sintaks diatas adalah
+
+     ![](gambar/ekstenal-css.jpg)
+
+  4. CSS Syntax
+
+     CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property, dan value.
+
+     Syntaxnya seperti ini:
+
+     ```css
+     p {
+       color: blue;
+     }
+     ```
+
+     Penjelasan :
+
+     - p
+
+       Adalah sebuah selector berupa element HTML yang akan diubah
+
+     - color
+
+       Adalah sebuah properti berupa bagian mana dari element HTML yang akan diubah. Contoh diatas kita akan mengubah warna dari teks yang ada di element p
+
+     - blue
+
+       Adalah value yaitu nilai/hiasan berupa warna biru
+
+     &nbsp;
