@@ -140,7 +140,7 @@
 
       ![](gambar/ol.jpg)
 
-    - Ordered List
+    - Unordered List
 
       ```html
       <ul>
