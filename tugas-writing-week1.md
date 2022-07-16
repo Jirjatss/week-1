@@ -377,3 +377,37 @@
     - Procedural
 
       Procedural adalah cara berpikir secara runtun. Artinya serangkaian perintah yang berurutan.
+
+      Contoh :
+
+      ![img](gambar/pseudocode.JPG)
+
+      &nbsp;
+
+    - Conditional
+
+      Conditional digunakan saat dibutuhkan percabangan kasus. Komputer akan melakukan suatu tindakan jika suatu kondisi terpenuhi.
+
+      Jika hari ini tidak hujan, maka Bob pergi ke pasar,
+
+      jika tidak maka Bob dirumah aja.
+
+      ![](gambar/conditional.jpg)
+
+    &nbsp;
+
+    - Looping
+
+      Komputer dapat melakukan sebuah proses yang sama berulang-ulang.
+
+      Jika membutuhkan perulangan dalam kasus tertentu, kita bisa menggunakan Looping.
+
+      Contoh :
+
+      ![](gambar/looping.jpg)
+
+      &nbsp;
+
+    - Recursive
+
+      Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function.
