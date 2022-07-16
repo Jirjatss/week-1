@@ -67,13 +67,94 @@
 
 ## HTML
 
-<div align="justify">Merupakan bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. Bagaimana peran HTML pada web development? Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML. Dokumen HTML yang berisi tag-tag HTML akan memberitahu browser bagaimana cara menampilkan sebuah konten.
+- <div align="justify">Merupakan bahasa komputer yang digunakan untuk membuat kerangka atau struktur untuk Web pages (halaman website) di internet. Bagaimana peran HTML pada web development? Web browser seperti Chrome, Firefox, Edge, Safari, atau Opera akan membaca dokumen HTML. Dokumen HTML yang berisi tag-tag HTML akan memberitahu browser bagaimana cara menampilkan sebuah konten.
 
 &nbsp;
 
-HTML memiliki sebuah kerangka seperti gambar dibawah ini
-![]()
+- Kerangka HTML
 
-Sintak diatas biasa disebut dengan kerangka bahasa pemrograman HTML. Didalam website selalu ada title untuk tiap-tiap web, untuk memasukkan title didalam web kamu harus mengetikkan diantara tag <TITLE> ... </TITLE> (titik-titik itu dapat diisikan dengan nama website kamu atau yang lainnya).
+  HTML memiliki sebuah kerangka seperti gambar dibawah ini
 
-Untuk memasukkan konten-konten, kamu dapat memasukkannya atau mengetikkannya didalam program tepat diantara tag <BODY> ... </BODY> (Ganti titik-titik dengan konten).
+  ![kerangka-hmtl](https://raw.githubusercontent.com/Jirjatss/week-1/main/gambar/kerangka-html.png)
+
+  <div align="justify">Sintak diatas biasa disebut dengan kerangka bahasa pemrograman HTML. Didalam website selalu ada title untuk tiap-tiap web, untuk memasukkan title didalam web kamu harus mengetikkan diantara tag title (dapat diisikan dengan nama website kamu atau yang lainnya). Untuk memasukkan konten-konten, kamu dapat memasukkannya atau mengetikkannya didalam program tepat diantara tag body (Ganti titik-titik dengan konten).
+
+  &nbsp;
+
+- Tag HTML
+
+  <div align="justify">Tag adalah sebauh penanda awalan dan akhiran dari sebuah elemen di HTML. Tag dibuat dengan kurung siku (<...>), lalu di dalamnya berisi nama tag dan kadang juga ditambahkan dengan atribut.
+
+  Tag selalu ditulis berpasangan. Ada tag pembuka dan ada tag penutupnya. Namun, ada juga beberapa tag yang tidak memiliki pasangan penutup. Tag penutup ditulis dengan menambahkan garis miring (/) di depan nama tag.
+
+  &nbsp;
+
+  Contoh tag HTML
+
+  - Tag untuk membuat tulisan tebal dan miring
+
+    ```html
+    <b>Tebal</b> <i>Miring</i>
+    ```
+
+    Hasilnya di browser
+
+    ![](gambar/tebal-miring.JPG)
+
+  - Tag HTML Untuk Membuat tulisan dengan link
+
+    ```html
+    <a href="">Welcome To AMMAN Coding Bootcamp BATCH 3</a>
+    ```
+
+    Hasilnya di web browser
+
+    ![](gambar/link.jpg)
+
+  - Tag Untuk Membuat Daftar/List
+
+    - Ordered List
+
+      ```html
+      <ol>
+        Dafunda
+      </ol>
+      <li>Dafunda Tekno</li>
+      <li>Dafunda Otaku</li>
+      <li>Dafunda Games</li>
+      ```
+
+      Hasilnya di web browser
+
+      ![](gambar/ol.jpg)
+
+    - Ordered List
+
+      ```html
+      <ul>
+        Dafunda
+        <li>Dafunda Tekno</li>
+        <li>Dafunda Otaku</li>
+        <li>Dafunda Games</li>
+      </ul>
+      ```
+
+      Hasilnya di web browser
+
+      ![](gambar/ul.jpg)
+
+  - Tag HTML Untuk Membuat tulisan dengan link
+
+    ```html
+    <img src="https://bit.ly/2FKluzq" alt="Si Kucing"></img>
+    ```
+
+    Hasilnya di web browser
+
+    ![](gambar/gambar.jpg)
+
+    &nbsp;
+
+- Deploy HTML
+
+  <div align="justify">Deploy adalah sebuah proses untuk menyebarkan aplikasi yang sudah kita kerjakan supaya bisa digunakan oleh orang-orang. Jika aplikasi kita HTML atau Web App kita perlu mendeploy ke server. Untuk melakukan hal tersebut kita bisa menggunakan layanan yang bernama Netlify
