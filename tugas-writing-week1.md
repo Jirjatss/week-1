@@ -130,10 +130,10 @@
       ```html
       <ol>
         Dafunda
+        <li>Dafunda Tekno</li>
+        <li>Dafunda Otaku</li>
+        <li>Dafunda Games</li>
       </ol>
-      <li>Dafunda Tekno</li>
-      <li>Dafunda Otaku</li>
-      <li>Dafunda Games</li>
       ```
 
       Hasilnya di web browser
