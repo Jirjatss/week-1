@@ -157,7 +157,7 @@
 
       ![](gambar/ul.jpg)
 
-  - Tag HTML Untuk Membuat tulisan dengan link
+  - Tag HTML Untuk Menampilkan gambar
 
     ```html
     <img src="https://bit.ly/2FKluzq" alt="Si Kucing"></img>
