@@ -301,7 +301,7 @@
 
   &nbsp;
 
-## Algoritma dan Pseudocde
+## Algoritma dan Struktur Data
 
 - Algoritma
 
@@ -366,9 +366,17 @@
     - Gunakan indentasi
     - Simpel
 
-    Contoh seperti gambar di bawah
+    Contoh :
 
-    ![](gambar/pseudocode.JPG)
+    ```md
+    STORE "width" with any number
+    STORE "height" with any nummber
+    STORE "area" without any value
+
+    CALCULATE "width" times "height"
+    SET "area" value with calculation result
+    DISPLAY "area"
+    ```
 
     &nbsp;
 
@@ -380,7 +388,15 @@
 
       Contoh :
 
-      ![img](gambar/pseudocode.JPG)
+      ```md
+      STORE "width" with any number
+      STORE "height" with any nummber
+      STORE "area" without any value
+
+      CALCULATE "width" times "height"
+      SET "area" value with calculation result
+      DISPLAY "area"
+      ```
 
       &nbsp;
 
@@ -392,7 +408,12 @@
 
       jika tidak maka Bob dirumah aja.
 
-      ![](gambar/conditional.jpg)
+      ```md
+      IF "bright"
+      DO "go to the market"
+      ELSE
+      DO "stay at home"
+      ```
 
     &nbsp;
 
@@ -404,7 +425,18 @@
 
       Contoh :
 
-      ![](gambar/looping.jpg)
+      ```md
+      STORE "count" t0 1
+
+      WHILE "count" < 11
+      DISPLAY "count"
+      CALCULATE "count" mod 2
+      STORE "reminder" value with calculation result
+      IF "reminder" equals to 0
+      DISPLAY "EVEN!"
+      ELSE
+      DISPLAY "ODD!"
+      ```
 
       &nbsp;
 
