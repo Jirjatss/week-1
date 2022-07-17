@@ -442,4 +442,4 @@
 
     - Recursive
 
-      Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function.
+      Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function
